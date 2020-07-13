@@ -1,0 +1,134 @@
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'OpenSans', sans-serif;
+  background: url('../background.jpg') center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#container {
+  font-size: 32px;
+  margin: 128px auto;
+  width: 768px;
+}
+
+h5 {
+  text-align: center;
+  columns: #333;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+  margin-bottom: 32px;
+}
+
+#calculator,
+#number,
+.buttons {
+  border-radius: 6px;
+}
+
+#calculator {
+  margin: 0 auto;
+  background-color: #454545;
+  border: 1px solid #3d3d3d;
+  width: 289px;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.8);
+}
+
+#header {
+  padding: 10px;
+  border-top: 1px solid #777;
+  border-radius: 6px;
+}
+
+input#number {
+  text-align: right;
+  background-color: #121212;
+  border: none;
+  color: #c8c8c8;
+  font-size: auto;
+  padding: 16px;
+  width: 227px;
+  border-bottom: 1px solid #777;
+  box-shadow: inset 0 0 10px 4px rgba(0, 0, 0, 0.6);
+}
+
+#body {
+  padding: 0 10px;
+}
+
+.buttons {
+  cursor: default;
+  text-align: center;
+  padding: 7px 12px;
+  font-size: 20px;
+  text-shadow: 0 -1px 1px #000;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  border-top: 1px solid #777;
+  width: 34px;
+  background: linear-gradient(#5f5f5f 0%, #404040 100%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.8);
+  margin-bottom: 10px;
+}
+
+.buttons:hover {
+  background: linear-gradient(#79d144 0%, #5da61f 100%);
+  border-top: 1px solid #9add73;
+  text-shadow: 0 -1px 1px #008000;
+}
+
+.buttons:active {
+  box-shadow: none;
+}

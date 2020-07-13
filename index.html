@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="href"
+      ="//fonts.googleapis.com/css?family=Open+Sans:400,300"
+    />
+    <title>Calculatrice</title>
+  </head>
+  <body>
+    <div id="container">
+      <h5>Calculatrice basique</h5>
+      <div id="calculator">
+        <div id="header">
+          <input
+            type="text"
+            id="number"
+            value="0"
+            autocomplete="off"
+            disabled
+          />
+        </div>
+        <div id="body">
+          <div class="buttons">7</div>
+          <div class="buttons">8</div>
+          <div class="buttons">9</div>
+          <div class="buttons">/</div>
+          <div class="buttons">4</div>
+          <div class="buttons">5</div>
+          <div class="buttons">6</div>
+          <div class="buttons">*</div>
+          <div class="buttons">1</div>
+          <div class="buttons">2</div>
+          <div class="buttons">3</div>
+          <div class="buttons">-</div>
+          <div class="buttons">0</div>
+          <div class="buttons">.</div>
+          <div class="buttons">=</div>
+          <div class="buttons">+</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js""></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function (){
+            var calc = new Calculator();
+            calc.run();
+        })
+    </script>
+  </body>
+</html>
